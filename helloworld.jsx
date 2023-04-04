@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import HelloWorldApp from './helloworld';
-const App = () => {
+
+const HelloWorldApp = () => {
   return (
     <View
       style={{
@@ -9,9 +9,8 @@ const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-      <Text>Hello, world! its zaid</Text>
-      <HelloWorldApp />
+      <Text>this is the second file saying hello from android</Text>
     </View>
   );
 };
-export default App;
+export default HelloWorldApp;
