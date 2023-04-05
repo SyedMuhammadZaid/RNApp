@@ -1,16 +1,13 @@
 import React from 'react';
-import {Text, View} from 'react-native';
-import HelloWorldApp from './helloworld';
+import {Text, View, Button} from 'react-native';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
+// import HelloWorldApp from './helloworld';
 const App = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
-      <Text>Hello, world! its zaid</Text>
-      <HelloWorldApp />
+    <View>
+      <Text style={{fontSize:20, color:"white", margin:10}}>Hello react native</Text>
+      <Button title='submit'></Button>
+     
     </View>
   );
 };
